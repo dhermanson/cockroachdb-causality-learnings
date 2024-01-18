@@ -1,5 +1,5 @@
 create table events (
-  id UUID default gen_random_uuid(),
+  id UUID PRIMARY KEY default gen_random_uuid(),
   payload TEXT,
   causality_token decimal
   );
